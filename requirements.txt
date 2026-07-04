@@ -1,0 +1,27 @@
+# Appify Store Bot - Requirements
+# ================================
+# Core Framework
+aiogram>=3.0.0,<4.0.0
+
+# Pyrogram for SourceBot automation
+pyrogram>=2.0.106
+tgcrypto>=1.2.5
+
+# Async HTTP for image downloads
+aiohttp>=3.9.0
+
+# Database
+sqlalchemy>=2.0.0
+aiosqlite>=0.19.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Flask for Render.com keep-alive
+flask>=3.0.0
+
+# Environment management (optional, falls back to config.py)
+python-dotenv>=1.0.0
+
+# Utilities
+aiofiles>=23.0.0
